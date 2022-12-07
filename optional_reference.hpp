@@ -121,7 +121,7 @@ namespace dl {
 
 
     /// If *this contains a reference, resets it to being empty.
-    constexpr void reset() const noexcept {
+    constexpr void reset() noexcept {
       m_ptr = nullptr;
     }
 
