@@ -1,2 +1,5 @@
-# optional_reference
-Raw pointer wrapper with std::optional-like semantics and safety against null dereferencing.
+Overview
+---
+This is an implementation of optional references in C++ as a safer wrapper over raw pointers.
+
+Non-owning optional references to objects in C++
