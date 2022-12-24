@@ -74,7 +74,7 @@ namespace dl {
 
     /// Const conversion operator.
     [[nodiscard]] constexpr operator optional_reference<const T>() const noexcept {
-      return optional_reference<const T>(this);
+      return optional_reference<const T>(m_ptr);
     }
 
 
